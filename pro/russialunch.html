@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+<link rel="stylesheet" href="Manga.Css ">
+
+<style>
+    #ma div button:hover{
+        color:black;
+      }
+      #ma div button:before {
+        content: "";
+        z-index: -1;
+        position:absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        background-color:#557388;
+        transition:all  0.2s;
+        border-radius: 5px;
+    
+        transform: translateY(10px);
+      }
+      #ma div button:hover::before {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        justify-content: center;
+      }
+    
+    
+    </style>
+
+    </head>
+    <body id="backgroundimage2">
+        
+
+   
+        <div id="ma">
+            <div> <a href="index.html">  <button class="N">Home</button></a></div>
+              <div><a href="zero.html"> <button class="N"> Menu</button></a></div>
+              <div><a href=""><button class="N">ContactUs</button></a></div>
+             <div><a href="account.html"><button class="N">sign up</button></a></div>
+           </div>
+    <div class="searchcontainer"><form><input oninput="inputcountries(this.value)"  type="text" placeholder="search Country" id="text" > </form></div>
+<div class="countriescontainers">
+    <field class="countriesfield">  
+       <div><a href="lebanon.html"><button class="russiabutton3test">Lebanon</button></a>
+    <img class="lebanonimage" src="countryflagsimages/lebanon.PNG" >
+    
+    </div> 
+    <hr>
+    <div><a href="japan.html"><button class="russiabutton3test">Japan</button></a>
+<img class="jappanimage" src="countryflagsimages/japan.PNG" >
+
+    </div>
+    <hr>
+<div>
+    <a href="america.html"><button class="russiabutton3test" >America</button></a>
+    <img class="americaimage" src="countryflagsimages/america.PNG">
+   
+</div>
+<hr>
+<div>
+   <a href="france.html"> <button class="russiabutton3test">France</button></a>
+    <img class="franceimage" src="countryflagsimages/france.PNG">
+    
+</div>
+<hr>
+    <div> <a href="russia.html"> <button class="russiabutton3">Russia</button></a>
+    <img class="russiaimage" src="countryflagsimages/russia.PNG"></div>
+    <hr>
+    <div><a href="turkiye.html"><button class="russiabutton3test">Turkiye</button></a>
+    <img class="iranimage" src="countryflagsimages/turkiye.PNG">
+    
+</div>
+<hr>
+<div>
+<a href="spain.html"><button class="russiabutton3test">SPAIN</button></a>
+<img class="spainimage" src="countryflagsimages/spain.PNG">
+</div>
+    </field>
+
+</div>
+
+<div class="foodbutton2">
+    <fieldset class="buttonfoodset1">
+<div><a href="russiabreakfast.html"><button class="russiabreakfast">завтрак</button></a></div>
+<div><a href="russialunch.html"><button class="russia1lunch">обедать</button></a></div>
+<div><a href="russiadessert.html"><button class="russiadessert">Десерт</button></a></div>
+    </fieldset>
+</div>
+
+<div class="foodblocks1">
+      
+    <fieldset class="firstfield5" >
+        <div>
+            
+        <img class="imagerow1" src="russian lunch/cabbage rolls.jpg">
+              
+        
+        <hr class="hrrow1">
+        <p class="textrow1">имя :&nbsp; голубцы</p>
+        <hr class="hrrow1">
+        <p class="pricerow1">цена :&nbsp;250₽</p>
+        <hr class="hrrow1">
+        <button class="buybuttonrow1russia">КУПИТЬ</button>
+        </div>
+    </fieldset>
+        
+
+ 
+<fieldset class="secondfield5">
+        <div>
+            <img class="imagerow1" src="russian lunch/chicken ciave.jpg">
+            <hr class="hrrow1">
+            <p class="textrow1">имя :&nbsp;куриный чиаве</p>
+            <hr class="hrrow1">
+            <p class="pricerow1">цена :&nbsp;100₽</p>
+            <hr class="hrrow1">
+            <button class="buybuttonrow1russia">КУПИТЬ</button>
+            </div>
+    </fieldset>
+
+    <fieldset class="thirdfield5">
+        <div>
+            <img class="imagerow1" src="russian lunch/druniki.jpg">
+            <hr class="hrrow1">
+            <p class="textrow1">имя :&nbsp;друники</p>
+            <hr class="hrrow1">
+            <p class="pricerow1">цена :&nbsp;800₽</p>
+            <hr class="hrrow1">
+            <button class="buybuttonrow1russia">КУПИТЬ</button>
+            </div>
+</fieldset>
+   
+</div>
+
+<div class="foodblocks2">
+<fieldset class="fourthfield5">
+<div>
+    <img class="imagerow1" src="russian lunch/egg plant roll up.jpg">
+    <hr class="hrrow1">
+    <p class="textrow1">имя :&nbsp;баклажан</p>
+    <hr class="hrrow1">
+    <p class="pricerow1">цена :&nbsp;300₽</p>
+    <hr class="hrrow1">
+    <button class="buybuttonrow1russia">КУПИТЬ</button>
+    </div>
+
+</fieldset>
+<fieldset class="fifthfield5">
+<div>
+    <img class="imagerow1" src="russian lunch/hot pastarmi sandwish.jpg">
+    <hr class="hrrow1">
+    <p class="textrow1">имя :&nbsp;пастрами</p>
+    <hr class="hrrow1">
+    <p class="pricerow1">цена :&nbsp;500₽</p>
+    <hr class="hrrow1">
+    <button class="buybuttonrow1russia">КУПИТЬ</button>
+    </div>
+
+</fieldset>      
+<fieldset class="sixthfield5">
+<div>
+    <img class="imagerow1" src="russian lunch/russian meat balls.jpg">
+    <hr class="hrrow1">
+    <p class="textrow1">имя :&nbsp;фрикадельки</p>
+    <hr class="hrrow1">
+    <p class="pricerow1">цена :&nbsp;600₽</p>
+    <hr class="hrrow1">
+    <button class="buybuttonrow1russia">КУПИТЬ</button>
+    </div>
+
+</fieldset>
+</div>
+<div class="foodblocks3">
+<fieldset class="seventhfield5">
+    <div>
+        <img class="imagerow1" src="russian lunch/stricky baken sandwish.jpg">
+        <hr class="hrrow1">
+        <p class="textrow1">имя :&nbsp;запеченный</p>
+        <hr class="hrrow1">
+        <p class="pricerow1">цена :&nbsp;240₽</p>
+        <hr class="hrrow1">
+        <button class="buybuttonrow1russia">КУПИТЬ</button>
+        </div>
+
+</fieldset>
+
+</div>
+
+<script>
+    function inputcountries(value){
+    
+        var myarray=["lebanon","america","france","spain","turkiye","japan","russia"];
+        for (var i=0 ;i<myarray.length;i++)
+    {
+         if(value.trim()===myarray[i])
+         {
+    
+            window.location.href=`${value}.html`;
+         }
+    
+    }
+    }
+    
+    </script>
+</body>
+</HTML>     
+     
+            
+         
+              

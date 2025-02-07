@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+<link rel="stylesheet" href="Manga.Css ">
+<style>
+    #ma div button:hover{
+        color:black;
+      }
+      #ma div button:before {
+        content: "";
+        z-index: -1;
+        position:absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        background-color:#95988A;
+        transition:all  0.2s;
+        border-radius: 5px;
+    
+        transform: translateY(10px);
+      }
+      #ma div button:hover::before {
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        justify-content: center;
+      }
+    
+    
+    </style>
+
+    </head>
+    <body id="backgroundimage1">
+        
+
+        <div id="ma">
+            <div> <a href="index.html">  <button class="N">Home</button></a></div>
+              <div><a href="zero.html"> <button class="N"> Menu</button></a></div>
+              <div><a href=""><button class="N">ContactUs</button></a></div>
+             <div><a href="account.html"><button class="N">sign up</button></a></div>
+           </div>
+    <div class="searchcontainer"><form><input oninput="inputcountries(this.value)"  type="text" placeholder="search Country" id="text" > </form></div>
+<div class="countriescontainers">
+    <field class="countriesfield">  
+       <div><a href="lebanon.html"><button class="spainbutton3test">Lebanon</button></a>
+    <img class="lebanonimage" src="countryflagsimages/lebanon.PNG" >
+    
+    </div> 
+    <hr>
+    <div><a href="japan.html"><button class="spainbutton3test">Japan</button></a>
+<img class="jappanimage" src="countryflagsimages/japan.PNG" >
+
+    </div>
+    <hr>
+<div>
+    <a href="america.html"><button class="spainbutton3test" >America</button></a>
+    <img class="americaimage" src="countryflagsimages/america.PNG">
+   
+</div>
+<hr>
+<div>
+   <a href="france.html"> <button class="spainbutton3test">France</button></a>
+    <img class="franceimage" src="countryflagsimages/france.PNG">
+    
+</div>
+<hr>
+    <div> <a href="russia.html"> <button class="spainbutton3test">Russia</button></a>
+    <img class="russiaimage" src="countryflagsimages/russia.PNG"></div>
+    <hr>
+    <div><a href=""><button class="spainbutton3test">Turkiye</button></a>
+    <img class="iranimage" src="countryflagsimages/turkiye.PNG">
+    
+</div>
+<hr>
+<div>
+<a href="spain.html"><button class="spainbutton3">SPAIN</button></a>
+<img class="spainimage" src="countryflagsimages/spain.PNG">
+</div>
+    </field>
+
+</div>
+
+<div class="foodbutton2">
+    <fieldset class="buttonfoodset1">
+<div><a href="spainbreakfast.html"><button class="spainbreakfast">Desayuno</button></a></div>
+<div><a href="spainlunch.html"><button class="spainlunch">Almuerzo</button></a></div>
+<div><a href="spaindessert.html"><button class="spain1dessert">Postre</button></a></div>
+    </fieldset>
+</div>
+
+   
+
+
+   
+
+        
+    <div class="foodblocks1">
+      
+        <fieldset class="firstfield7" >
+            <div>
+                
+            <img class="imagerow1" src="spain dessert/catalana creama.jpg">
+                  
+            
+            <hr class="hrrow1">
+            <p class="textrow1">Nombre :&nbsp; crema catalana</p>
+            <hr class="hrrow1">
+            <p class="pricerow1">Precio :&nbsp;27€</p>
+            <hr class="hrrow1">
+            <button class="buybuttonrow1spain">COMPRAR</button>
+            </div>
+        </fieldset>
+            
+    
+     
+<fieldset class="secondfield7">
+            <div>
+                <img class="imagerow1" src="spain dessert/ceestrs creamy rum.jpg">
+                <hr class="hrrow1">
+                <p class="textrow1">Nombre :&nbsp;Ceetrs cremosa</p>
+                <hr class="hrrow1">
+                <p class="pricerow1">Precio :&nbsp;30€</p>
+                <hr class="hrrow1">
+                <button class="buybuttonrow1spain">COMPRAR</button>
+                </div>
+        </fieldset>
+    
+        <fieldset class="thirdfield7">
+            <div>
+                <img class="imagerow1" src="spain dessert/creme caramel.jpg">
+                <hr class="hrrow1">
+                <p class="textrow1">Nombre :&nbsp;flan</p>
+                <hr class="hrrow1">
+                <p class="pricerow1">Precio :&nbsp;23€</p>
+                <hr class="hrrow1">
+                <button class="buybuttonrow1spain">COMPRAR</button>
+                </div>
+</fieldset>
+       
+    </div>
+   
+    
+<script>
+    function inputcountries(value){
+    
+        var myarray=["lebanon","america","france","spain","turkiye","japan","russia"];
+        for (var i=0 ;i<myarray.length;i++)
+    {
+         if(value.trim()===myarray[i])
+         {
+    
+            window.location.href=`${value}.html`;
+         }
+    
+    }
+    }
+    
+    </script>
+    </body>
+    </HTML>     
+         
+                
+             
+                  
