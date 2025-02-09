@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.aboutusbackground{
+
+background-image: url(aboutus.jpg);
+background-repeat: no-repeat;
+background-size:1700px 1200px ;
+}
+.aboutus{
+
+    text-align: center;
+    transform: translate(0px,80px);
+}
+html{
+
+overflow-x: hidden;
+height: 219vh;
+}
+body{
+
+height: 219vh;
+
+}
+.aboutusfield {
+height:420px ;
+width:400px;
+background-color: azure;
+border-radius: 50px;
+
+border: solid;
+animation-name:container ;
+animation-duration: 2s;
+}
+.fieldcontainer  {
+
+transform: translate(20px,200px);
+margin-bottom: 100px;
+
+}
+@keyframes container{
+
+0%{
+    transform: translate(-200px);
+}
+100%{
+     transform: translate(0px);
+}
+
+}
+.header{
+
+    text-align: center;
+
+}
+.paragraph{
+
+    font-size: 17px;
+    font-weight: bold;
+}
+#ma{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+        
+        height: 70px;
+    
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        
+        
+    }
+    .N{
+         margin-right: 40px;
+        margin-left: 50px;
+        height: 30px;
+        width: 100px;
+        color: azure;
+        background-color: transparent;
+        border-color: transparent;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        background-color:transparent;
+        font-weight: bold;
+        font-style: italic;
+        border: 1px solid transparent;
+        padding: 0;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        justify-content: center;
+    }
+    #ma div button:hover{
+    color:black;
+  }
+  #ma div button:before {
+    content: "";
+    z-index: -1;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color:rgb(194,118,13);
+    transition:all  0.2s;
+    border-radius: 5px;
+
+    transform: translateY(10px);
+  }
+  #ma div button:hover::before {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .tablecontainer{
+
+    transform: translate(800px,-360px);
+  
+  }
+ 
+  .paragraph1{
+
+    font-weight: bold;
+    font-size: 25px;
+    background-color: azure;
+    border: solid;
+    border-radius: 40px;
+    width: 600px;
+    text-align: center;
+  }
+  .background2{
+
+    transform: translate(-100px,-300px);
+  }
+  table{
+
+    height: 350px;
+    border: solid;
+    border-color: black;
+    width: 700px;
+    animation-name: container1;
+    animation-duration: 2s;
+    margin-bottom:300px ;
+    border-width: 5px;
+  }
+  @keyframes container1{
+
+0%{
+    transform: translate(200px);
+}
+100%{
+     transform: translate(0px);
+}}
+  th{
+
+    background-color: azure;
+    border-right:solid black;
+    border-left: solid black;
+    border-bottom: solid black;
+    border-top: solid black;
+  border-width: 5px;
+  }
+  #touch{
+
+    transform: translate(150px,113px);
+    font-size:30px;
+  }
+  #account{
+    transform: translate(900px,-130px);
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+
+  }
+#lu{
+
+  font-size: 40px;
+   transform: translate(38vw,-49px);
+   margin: 0;
+}
+footer{
+    background-color:#090000;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    height: 63vh;
+    width: 100vw;
+    transform: translatey(-365px);
+}
+footer a{
+    color: white;
+    text-decoration:none;
+}
+footer div button{
+    border: 2px solid #090000;
+    background-color: #090000;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+footer img{
+    width: 200px;
+    height: 60px;
+    border-color: #090000; 
+    transform: translate(45vw,-50px);
+} 
+
+tr td {
+background-color: gray;
+border: solid;
+border-color: gray;
+
+}
+.tabledata{
+
+  background-color: azure;
+border: solid;
+border-color: azure;
+
+}
+
+
+</style>
+</head>
+<body class="aboutusbackground">
+    
+    <div id="ma">
+        <div> <a href="index.html">  <button class="N">Home</button></a></div>
+          <div><a href="zero.html"> <button class="N"> Menu</button></a></div>
+          <div><a href=""><button class="N">About US</button></a></div>
+         <div><a href="account.html"><button class="N">sign up</button></a></div>
+       </div>
+  <div class="aboutus"> <h1>ABOUT US </h1></div>
+<br>
+<br>
+<br>
+<div class="fieldcontainer">
+<fieldset class="aboutusfield"><h2 class="header" >WHY CHOOSING US ?<br><br></h2>
+<p class="paragraph">AT lu resturant we belive that quality and flavor has<br>been our most important goal being able to let the customers not just to eat but enjoy various meals and taste .</p>
+<p class="paragraph">Our ultimate goal is to create an unforgettable experience when people visit our restaurant starting from food and ending with atmosphere and place they eat in our food is very affordable for all people with high quality ingredient.</p>
+<p class="paragraph">Being able to get know new cultures and experiencing different flavors from different countries.being at the service of customers making it unforgettable experience that they wont forget for their entire life.</p>
+<br>
+<br>
+</fieldset>
+</div>
+<div class="tablecontainer">
+
+<table border="1">
+<div class="background2"><caption>
+   <p class="paragraph1"> BRANCHES OF THE RESTAURANT</p>
+</caption></div>
+<tr class="tablerow">
+
+<th>COUNTRY</th>
+<th>CITY</th>
+<th>PHONE NUMBER</th>
+</tr>
+<tr><td>LEBANON</td>
+    <td>BEIRUT</td>
+    <td>+961 71584975</td></tr>
+<tr><td class="tabledata">JAPAN</td>
+    <td class="tabledata">TOKYO</td>
+    <td class="tabledata">+81 54673824510</td></tr>
+<tr><td>RUSSIA</td>
+    <td>MOSCOW</td>
+    <td>+7 465938120</td></tr>
+<tr><td class="tabledata">AMERICA</td>
+    <td class="tabledata">NEWYORK</td>
+    <td class="tabledata">+1 192835-5347</td></tr>
+
+</table>
+
+
+
+</div>
+
+<footer>
+  <div id="touch">
+      <p>
+      STAY IN TOUCH
+      <br>
+      <br>
+      Contact Details: <br>
+      phone:1234567890 <br>
+     <a href="mailto:lebaneseuniversity@st.edu.lb"> Email:lebaneseuniversity@st.edu.lb</a><br>
+      Address:hadth <br>
+      </p> 
+  </div> 
+  <div id="account">
+      <div><p>ACCOUNT SERVICES</p></div>
+      <div> <button>menu</button> </div>
+      <div><a href="account.html"><button>My account</button></a></div>
+  </div>
+  <img src="icon1.jpg"><br>
+  <p id="lu"> LU.All rights are reserved &copy;</p>
+ 
+</footer>
+
+
+
+</body>
+
+
+</html>
